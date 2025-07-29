@@ -10,7 +10,7 @@ server.Parent = game.ReplicatedStorage
 -- Event untuk menerima script dari client
 server.OnServerEvent:Connect(function(player, SS)
     -- Proteksi: hanya UserId kamu yang bisa eksekusi
-    if player.UserId == 123456789 then -- Ganti dengan UserId kamu
+    if player.UserId == 8567819620 then -- Ganti dengan UserId kamu
         print("[Kenzo Executor] Eksekusi script dari:", player.Name)
         local func = loadstring(SS)
         if func then
